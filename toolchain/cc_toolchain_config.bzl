@@ -20,7 +20,7 @@ def _impl(ctx):
             path = "/usr/bin/clang",
         ),
         tool_path(
-            name = "afl-gcc",
+            name = "afl-gcc",               # Ta bort
             path = "/usr/bin/afl-gcc",
         ),
         tool_path(

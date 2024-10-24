@@ -1,6 +1,6 @@
 Command line used to find this crash:
 
-afl-fuzz -i input_corpus -o fuzz_output -- ./bazel-bin/main/fuzz_target_math
+afl-fuzz -i input_corpus -o fuzz_output -- bazel-bin/main/fuzz_target_math
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
 memory limit. The limit used for this fuzzing session was 0 B.

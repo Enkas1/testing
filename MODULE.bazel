@@ -3,6 +3,7 @@ bazel_dep(name = "platforms", version = "0.0.10")
 register_toolchains(
     "//toolchain:cc_toolchain_for_linux_x86_64",
     "//toolchain2:cc_toolchain_for_linux_x86_64_afl",
+    "//toolchain3:cc_toolchain_for_linux_x86_64_g++",
 
 )
 
